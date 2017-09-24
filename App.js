@@ -17,23 +17,13 @@ const styles = StyleSheet.create({
     alignItems: 'stretch',
     justifyContent: 'center'
   },
-  // text: {
-  //   color: 'green',
-  //   fontSize: 25,
-  //   textAlign: 'center',
-  //   textShadowColor: '#555',
-  //   textShadowOffset: {
-  //     width: 2,
-  //     height: 2
-  //   }
-  // },
   bgImg: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center'
   },
   menuButtons: {
-    flex: 1,
+    flex: 2,
     alignItems: 'stretch',
     justifyContent: 'center',
     width:200
@@ -41,6 +31,22 @@ const styles = StyleSheet.create({
   indivButton: {
     height: 40,
     margin: 6
+  },
+  titleImgContainer: {
+    flex:0.3,
+    alignItems: 'stretch',
+    justifyContent: 'center',
+    width: 300,
+    height: 50
+  },
+  titleImg: {
+    flex: 1,
+    width: null,
+    height: 100,
+    resizeMode: 'stretch'
+  },
+  menuTopSpacer: {
+    flex: 0.6
   }
 });
 

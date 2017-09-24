@@ -22,6 +22,23 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center'
   },
+  joinFormContainer: {
+    flex: 2,
+    width: 200,
+    alignItems: 'stretch',
+    justifyContent: 'center'
+  },
+  joinFormInput: {
+    backgroundColor: "#FFF",
+    flex: 1,
+    fontSize: 20
+  },
+  joinFormTopSpacer: {
+    flex: 2
+  },
+  joinFormBottomSpacer: {
+    flex: 6
+  },
   menuButtons: {
     flex: 2,
     alignItems: 'stretch',

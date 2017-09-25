@@ -14,11 +14,14 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#000',
-    alignItems: 'stretch',
     justifyContent: 'center'
   },
   bgImg: {
     flex: 1,
+    width: null,
+    height: null,
+    resizeMode: 'stretch',
+    alignSelf: 'stretch',
     alignItems: 'center',
     justifyContent: 'center'
   },
@@ -64,6 +67,57 @@ const styles = StyleSheet.create({
   },
   menuTopSpacer: {
     flex: 0.6
+  },
+  roomContainer: {
+    flex: 1,
+    backgroundColor: '#FFF',
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  boardRow: {
+    flex: 1,
+    flexDirection: "row",
+  },
+  boardSquareWhite: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#893220'
+  },
+  boardSquareBlack: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#DD9C53'
+  },
+  gestureSquare: {
+    flex: 1,
+    width: null,
+    height: null,
+    resizeMode: 'stretch',
+    alignSelf: 'stretch',
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  piece: {
+    flex: 1,
+    width: 20,
+    height: 20
+  },
+  roomTopSpacer: {
+    backgroundColor: '#000',
+    alignSelf: 'stretch',
+    flex: 2
+  },
+  roomBottomSpacer: {
+    backgroundColor: '#000',
+    alignSelf: 'stretch', 
+    flex: 2
+  },
+  roomContent: {
+    flex: 8,
+    alignItems: 'center',
+    justifyContent: 'center'
   }
 });
 
